@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scrapping.Recipes", "Scrapping.Recipes\Scrapping.Recipes.csproj", "{355FB292-0AE1-4CC5-A017-4DDDC7D446F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scrapping.Recipes.Tests", "Scrapping.Recipes.Tests\Scrapping.Recipes.Tests.csproj", "{53C171E8-3274-4B99-8FBB-B9308F5C4DB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{355FB292-0AE1-4CC5-A017-4DDDC7D446F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{355FB292-0AE1-4CC5-A017-4DDDC7D446F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{355FB292-0AE1-4CC5-A017-4DDDC7D446F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{355FB292-0AE1-4CC5-A017-4DDDC7D446F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C171E8-3274-4B99-8FBB-B9308F5C4DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C171E8-3274-4B99-8FBB-B9308F5C4DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C171E8-3274-4B99-8FBB-B9308F5C4DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C171E8-3274-4B99-8FBB-B9308F5C4DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC910366-7CDB-485E-91E2-5DC5383DB352}
+	EndGlobalSection
+EndGlobal
