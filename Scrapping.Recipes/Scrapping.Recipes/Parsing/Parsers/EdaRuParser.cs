@@ -25,7 +25,7 @@ internal class EdaRuParser
             },
             CookTimeMinutes = GetCookTime(doc),
             DishesCount = GetDishesCount(doc),
-            DescriptionLines = GetDescriptionLines(doc),
+            Steps = GetDescriptionLines(doc),
             Ingredients = GetIngredients(doc),
             FoodCategoriesModel = GetCategories(doc),
             ProviderName = "eda.ru",

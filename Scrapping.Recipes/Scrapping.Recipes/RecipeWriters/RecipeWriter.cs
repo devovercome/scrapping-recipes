@@ -35,7 +35,7 @@ internal class RecipeWriter
 
     public void WriteSteps()
     {
-        WriteLines(StepsFileName + Txt, recipe.DescriptionLines);
+        WriteLines(StepsFileName + Txt, recipe.Steps);
     }
 
     public static void Write(RecipeModel recipe)

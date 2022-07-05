@@ -1,12 +1,8 @@
 namespace Scrapping.Recipes.Tests
 {
+    [TestFixture]
     public class EdaRuParserTests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
         [Test]
         public void Parse_ShouldWork_ForSampleCase()
         {
@@ -26,7 +22,7 @@ namespace Scrapping.Recipes.Tests
                 FoodCategoriesModel = new(new string[] { "Îñíîâíûå áëşäà", "ÎÂÎÙÍÎÅ ĞÀÃÓ Ñ ÊÀÁÀ×ÊÀÌÈ", "ÎÂÎÙÍÎÅ ĞÀÃÓ", "ĞÀÃÓ" }),
                 DishesCount = 2,
                 Ingredients = new IngredientModel[9],
-                DescriptionLines = new string[8],
+                Steps = new string[8],
                 ProviderName = "eda.ru",
                 RecipeUrl = url
             };
@@ -49,7 +45,7 @@ namespace Scrapping.Recipes.Tests
                 Assert.That(recipe.FoodCategoriesModel.MainCategory, Is.EqualTo(expected.FoodCategoriesModel.MainCategory));
                 Assert.That(recipe.DishesCount, Is.EqualTo(expected.DishesCount));
                 Assert.That(recipe.Ingredients.Count(), Is.EqualTo(expected.Ingredients.Count()));
-                Assert.That(recipe.DescriptionLines.Count(), Is.EqualTo(expected.DescriptionLines.Count()));
+                Assert.That(recipe.Steps.Count(), Is.EqualTo(expected.Steps.Count()));
 
                 Assert.That(recipe.ProviderName, Is.EqualTo(expected.ProviderName));
                 Assert.That(recipe.RecipeUrl, Is.EqualTo(expected.RecipeUrl));
